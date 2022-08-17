@@ -1,10 +1,10 @@
-Source: shbr-echo
+Source: eziganshin
 Section: devel
 Priority: optional
-Maintainer: Grigory Ozhegov <ozhegov@yandex-team.ru>
+Maintainer: Emir Ziganshin <emir.ziganshin@yandex.ru>
 Build-Depends: build-essential, debhelper (>= 9), oracle-java17-installer
 
-Package: shbr-echo
+Package: eziganshin
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: shbr echo server
